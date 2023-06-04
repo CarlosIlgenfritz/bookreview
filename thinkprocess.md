@@ -1,6 +1,8 @@
 # Think Process
-In this file I will try to demonstrate my thought process for creating the application. During development a lot of things cross my mind, but I'll try to list the main ones, but I may have forgotten something :grimacing:
-
+In this file I will try to demonstrate my thought process for creating the application. During development
+a lot of things cross my mind, but I'll try to list the main ones, but I may have forgotten something.
+After reading the requirements and needs of the system, I chose to make a monolith because I understood that since it is for internal use, 
+the system will not have many requests, and there would be no need to scale it.
 After reading and understanding the requirements and how the 3rd party API works. Define the following goals
 
 #### Definition of the framework to be used:
@@ -15,8 +17,6 @@ The delimited context I chose is called BookReview, as the requirements say that
 After defining the tool and the delimited context, start working on the development of the application itself, focusing on writing code following principles such as SOLID, TDD. I used docker as an ally when creating project dependencies, such as Postgres and Redis databases.
 
 ### Next Steps
-As the first version of the system, I would make a monolith because its use is only internal to the company
-
 If the system is going to be launched in the market. I would make some architectural changes.
 
 - I would change the monolithic system for a system using microservice.
