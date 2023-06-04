@@ -2,6 +2,7 @@ package com.morotech.bookqualifier.book.application;
 
 import com.github.javafaker.Faker;
 import com.morotech.bookqualifier.book.domain.builder.GutendexSearchResultDtoBuilder;
+import com.morotech.bookqualifier.book.portadapter.GutendexHttpClient;
 import com.morotech.bookqualifier.book.portadapter.dto.SearchResultDto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

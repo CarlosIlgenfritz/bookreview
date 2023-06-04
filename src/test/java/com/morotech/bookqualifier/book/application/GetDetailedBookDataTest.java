@@ -5,6 +5,7 @@ import com.morotech.bookqualifier.book.domain.BookReview;
 import com.morotech.bookqualifier.book.domain.builder.BookReviewBuilder;
 import com.morotech.bookqualifier.book.domain.builder.GutendexSearchResultDtoBuilder;
 import com.morotech.bookqualifier.book.domain.repository.BookReviewRepository;
+import com.morotech.bookqualifier.book.portadapter.GutendexHttpClient;
 import com.morotech.bookqualifier.book.portadapter.dto.DetailedBookDataDto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

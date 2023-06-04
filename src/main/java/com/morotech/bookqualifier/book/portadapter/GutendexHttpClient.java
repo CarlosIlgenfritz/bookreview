@@ -1,4 +1,4 @@
-package com.morotech.bookqualifier.book.application;
+package com.morotech.bookqualifier.book.portadapter;
 
 import com.morotech.bookqualifier.book.portadapter.GutendexApi;
 import com.morotech.bookqualifier.book.portadapter.dto.GutendexSearchResultDto;

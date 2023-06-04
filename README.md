@@ -46,11 +46,6 @@ Then, after the Dockerfile process is finished, you can run this command in the 
 
 In a real-world scenario, the application's database could be on a cloud, such as AWS, so instead of needing to connect one container to another, the container containing the application will connect using a database URL hosted on the cloud. That removes the problem of having to connect two containers on the same machine
 
-### System Diagram
-
-To deploy this system I would add a Kubernetes to carry out the orchestration of containers. It is also a logging and monitoring tool, such as datadog.
-
-![System Diagram](systemdiagram.png "System Diagram")
 
 
 

@@ -1,4 +1,4 @@
-package com.morotech.bookqualifier.book.application.integration;
+package com.morotech.bookqualifier.book.portadapter;
 
 import com.morotech.bookqualifier.book.application.SaveBookReview;
 import com.morotech.bookqualifier.book.domain.builder.BookReviewDtoBuilder;

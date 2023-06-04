@@ -2,6 +2,7 @@ package com.morotech.bookqualifier.book.application;
 
 import com.morotech.bookqualifier.book.domain.BookReview;
 import com.morotech.bookqualifier.book.domain.repository.BookReviewRepository;
+import com.morotech.bookqualifier.book.portadapter.GutendexHttpClient;
 import com.morotech.bookqualifier.book.portadapter.dto.DetailedBookDataDto;
 import com.morotech.bookqualifier.book.portadapter.dto.GutendexBookDto;
 import com.morotech.bookqualifier.book.portadapter.dto.GutendexSearchResultDto;

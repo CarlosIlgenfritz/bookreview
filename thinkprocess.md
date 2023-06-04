@@ -14,7 +14,22 @@ The delimited context I chose is called BookReview, as the requirements say that
 
 After defining the tool and the delimited context, start working on the development of the application itself, focusing on writing code following principles such as SOLID, TDD. I used docker as an ally when creating project dependencies, such as Postgres and Redis databases.
 
-### System deploy diagram
-I tried with the diagram to demonstrate how I would deploy this application, adding Kubernetes for container orchestration and monitoring/logging tools.
+### Next Steps
+As the first version of the system, I would make a monolith because its use is only internal to the company
+
+If the system is going to be launched in the market. I would make some architectural changes.
+
+- I would change the monolithic system for a system using microservice.
+- Each API would be a microservice, with its own database, and each microservice having its responsibility, by doing 
+this, we could, if necessary, scale the APIs as needed, using an orchestrator for this, such as Kubernetes.
+When using a microservice, we also have the freedom to write each microservice with the best technology to solve 
+that problem.
+- Added Log analysis and monitoring tools. Important tools because given the microservice context, 
+these tools are allies to understand if the microservices are healthy, which microservice is receiving more 
+requests, etc.
+- Creation of a CI/CD pipeline, and within this pipeline I would run the tests to try to prevent as 
+much as possible the addition of new bugs to the system.
+
+I have tried to demonstrate this process in the following diagram
 
 ![System Diagram](systemdiagram.png "System Diagram")

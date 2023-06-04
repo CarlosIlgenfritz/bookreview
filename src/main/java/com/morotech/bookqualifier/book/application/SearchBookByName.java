@@ -1,5 +1,6 @@
 package com.morotech.bookqualifier.book.application;
 
+import com.morotech.bookqualifier.book.portadapter.GutendexHttpClient;
 import com.morotech.bookqualifier.book.portadapter.dto.GutendexSearchResultDto;
 import com.morotech.bookqualifier.book.portadapter.dto.SearchResultDto;
 import org.springframework.beans.factory.annotation.Autowired;

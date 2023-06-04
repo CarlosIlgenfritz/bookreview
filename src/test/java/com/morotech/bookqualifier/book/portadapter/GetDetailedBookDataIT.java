@@ -1,11 +1,9 @@
-package com.morotech.bookqualifier.book.application.integration;
+package com.morotech.bookqualifier.book.portadapter;
 
 import com.morotech.bookqualifier.book.application.GetDetailedBookData;
-import com.morotech.bookqualifier.book.application.GutendexHttpClient;
 import com.morotech.bookqualifier.book.domain.builder.BookReviewDtoBuilder;
 import com.morotech.bookqualifier.book.domain.builder.GutendexSearchResultDtoBuilder;
 import com.morotech.bookqualifier.book.domain.repository.BookReviewRepository;
-import com.morotech.bookqualifier.book.portadapter.BookRest;
 import com.morotech.bookqualifier.book.portadapter.dto.BookReviewDto;
 import com.morotech.bookqualifier.book.portadapter.dto.DetailedBookDataDto;
 import org.junit.Test;
@@ -18,7 +16,6 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.ActiveProfiles;
-import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.HttpServerErrorException;
